@@ -1,0 +1,50 @@
+{
+  "name": "bitmapit",
+  "version": "1.0.0",
+  "description": "A simple bitmap font generator for creating text art in uppercase letters, designed for ASCII and pixel-style text rendering.",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm start",
+    "test": "jest",
+    "build": "rollup -c",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "rollup": "^4.9.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "eslint": "^8.53.0",
+    "prettier": "^3.1.0"
+  },
+  "keywords": [
+    "bitmap",
+    "font",
+    "text-art",
+    "ascii-art",
+    "pixel-font",
+    "text-generator"
+  ],
+  "author": "Om Preetham Bandi <ompreethambandi@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OmPreetham/bitmapit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OmPreetham/bitmapit/issues"
+  },
+  "homepage": "https://github.com/OmPreetham/bitmapit#readme",
+  "engines": {
+    "node": ">=16"
+  }
+}
