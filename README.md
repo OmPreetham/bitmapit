@@ -153,7 +153,7 @@ generator.setSpacing(2);
 
 ## Examples
 
-Visit our [demo page](https://bitmapit.vercel.app) to try BitmapIt live and see various examples in action.
+Visit our [demo page](https://bitmapit-preview.vercel.app) to try BitmapIt live and see various examples in action.
 
 ## Contributing
 
@@ -174,4 +174,3 @@ Created by Om Preetham
 ## Support
 
 - Report issues on [GitHub](https://github.com/OmPreetham/bitmapit/issues)
-- For questions and discussions, use [GitHub Discussions](https://github.com/OmPreetham/bitmapit/discussions)
